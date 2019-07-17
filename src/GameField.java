@@ -126,25 +126,21 @@ class GameField extends JPanel implements ActionListener {
             int key = e.getKeyCode();
             if (key == KeyEvent.VK_LEFT && !right) {
                 left = true;
-                //right = false;
                 up = false;
                 down = false;
             }
             if (key == KeyEvent.VK_RIGHT && !left) {
                 right = true;
-                //left = false;
                 up = false;
                 down = false;
             }
             if (key == KeyEvent.VK_UP && !down) {
                 up = true;
-                //down = false;
                 left = false;
                 right = false;
             }
             if (key == KeyEvent.VK_DOWN && !up) {
                 down = true;
-                //up = false;
                 left = false;
                 right = false;
             }
