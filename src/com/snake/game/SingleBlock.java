@@ -1,7 +1,4 @@
 package com.snake.game;
 
-public class Food {
-
-
-
+public class SingleBlock {
 }
